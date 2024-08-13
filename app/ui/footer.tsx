@@ -4,35 +4,31 @@ import { FaDiscord, FaInstagram } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <div className="bg-gunmetal-800 pb-4 text-gray-500">
-      <div className="lg:max-w-5xl mx-auto pt-16 px-4">
-        <div className="flex flex-col lg:flex-row border-b border-gray-600">
-          <div className="lg:w-2/5">
-            <Image
-              src="/images/uxclublogo.svg"
-              alt="UX Club Logo"
-              width={50}
-              height={50}
-              priority
-              className="mb-4 opacity-45"
-            />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              quis libero mi. Aliquam cursus mattis purus, quis tincidunt urna
-              faucibus eget. Nullam mattis nunc eu massa suscipit laoreet.
-              Curabitur at ligula varius, lobortis risus quis, finibus velit.
-            </p>
-            <div className="flex flex-row gap-6 my-4 text-2xl">
-              <Link href={"/"} className="hover:text-gray-300 transition-colors">
-                <FaDiscord />
-              </Link>
-              <Link href={"/"} className="hover:text-gray-300 transition-colors">
-                <FaInstagram />
-              </Link>
-            </div>
-          </div>
+    <div className="bg-gradient-to-tr from-teal-700 to-teal-500 pb-4 text-white">
+      <div className="lg:max-w-7xl mx-auto py-8 px-4">
+        <ul className="flex flex-col md:flex-row justify-center items-center gap-10 uppercase my-4">
+          <li>
+            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all" href={"/"}>Home</Link>
+          </li>
+          <li>
+            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/about"}>About Us</Link>
+          </li>
+          <li>
+            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/events"}>Upcoming Events</Link>
+          </li>
+          <li>
+            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/contact"}>Contact Us</Link>
+          </li>
+        </ul>
+        <div className="flex flex-row justify-center gap-6 my-4 text-2xl mx-auto">
+          <Link href={"/"} className="hover:text-gray-300 transition-colors">
+            <FaDiscord />
+          </Link>
+          <Link href={"/"} className="hover:text-gray-300 transition-colors">
+            <FaInstagram />
+          </Link>
         </div>
-        <p className="my-4">&copy; 2024 UX Design Club at UTA</p>
+        <p className="my-4 text-sm text-center">&copy; 2024 UX Design Club at UTA</p>
       </div>
     </div>
   );

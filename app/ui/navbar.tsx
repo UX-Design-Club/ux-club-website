@@ -6,12 +6,12 @@ import { GoButton } from "./gobutton";
 
 export function Navbar() {
   return (
-    <div className="w-full h-16 absolute">
-      <div className="lg:max-w-5xl flex flex-row h-full justify-between mx-auto items-center content-center px-4">
+    <div className={`w-full h-16 absolute z-20 bg-white drop-shadow-xl`}>
+      <div className="lg:max-w-7xl flex flex-row h-full justify-between mx-auto items-center content-center px-4">
         <Link href={"/"} className="h-2/3">
           <Image
             className="h-full"
-            src="/images/uxclublogo.svg"
+            src="/images/uxclublogo_d.svg"
             alt="UX Design Club Logo"
             width={90}
             height={50}
@@ -21,21 +21,29 @@ export function Navbar() {
         <div className="md:hidden">
           <Hamburger />
         </div>
-        <ul className="hidden md:block">
-          <li className="flex flex-row gap-8 justify-center items-center content-center font-bold text-slate-300">
-            <Link href={"/"} className="hover:text-white transition-all">
+        <ul className="hidden md:flex flex-row gap-8 justify-center items-center content-center font-bold text-slate-800">
+          <li className="border-2 border-transparent hover:border-b-slate-800 transition-colors duration-100">
+            <Link href={"/"} className="transition-all">
               Home
             </Link>
-            <Link href={"about"} className="hover:text-white transition-all">
+          </li>
+          <li className="border-2 border-transparent hover:border-b-slate-800 transition-colors duration-100">
+            <Link href={"about"} className="transition-all">
               About
             </Link>
-            <Link href={"/"} className="hover:text-white transition-all">
-              Events
+          </li>
+          <li className="border-2 border-transparent hover:border-b-slate-800 transition-colors duration-100">
+            <Link href={"events"} className="transition-all">
+              Upcoming Events
             </Link>
-            <Link href={"/"} className="hover:text-white transition-all">
-              Sponsorship
+          </li>
+          <li className="border-2 border-transparent hover:border-b-slate-800 transition-colors duration-100">
+            <Link href={"contact"} className="transition-all">
+              Contact Us
             </Link>
-            <GoButton href="/" text="Join Us" />
+          </li>
+          <li className="flex flex-row">
+            <GoButton href="https://forms.gle/W5A4eWQbsXsuRurt8" text="Join Us" dark />
           </li>
         </ul>
       </div>

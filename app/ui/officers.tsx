@@ -4,9 +4,9 @@ import { OfficerCard } from "./officercard";
 
 export function OfficerHighlight() {
   return (
-    <div className="w-full bg-gunmetal-700">
+    <div className="w-full bg-slate-100">
       <div className="lg:max-w-5xl mx-auto py-32">
-        <h2 className="font-semibold text-slate-200 text-5xl uppercase m-auto text-center mb-8">
+        <h2 className="text-slate-800 font-bold text-4xl uppercase m-auto text-center mb-8">
             Our Officers
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center flex-wrap items-center">

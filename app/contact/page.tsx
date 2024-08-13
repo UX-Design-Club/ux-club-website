@@ -1,11 +1,16 @@
+import Image from "next/image";
+import { WhoWeAre } from "../ui/whoweare";
+import { OfficerCard } from "../ui/officercard";
 import { OfficerHighlight } from "../ui/officers";
 import { Hero } from "../ui/hero";
+import { PrimaryButton } from "../ui/primarybutton";
 import { GoButton } from "../ui/gobutton";
 import { SplitBanner } from "../ui/spiltbanner";
 
-export default function About() {
+export default function Home() {
   return (
-    <main className="pt-16">
+    <main>
+      <Hero imgUrl="/images/team-photo.jpg" alignRight bannerHeight></Hero>
       <SplitBanner
         imgUrl="/images/team-photo.jpg"
         altText="Leadership Team tabling at Student Organization Fair"
