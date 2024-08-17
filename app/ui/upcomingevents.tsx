@@ -1,4 +1,4 @@
-import { EventCard } from "./event";
+import { EventBanner, EventCard } from "./event";
 import { eventDatabase } from "../lib/data";
 
 
@@ -20,6 +20,24 @@ export function UpcomingEvents() {
           <EventCard id="ux-design-challenge" description date time />
           <EventCard id="ux-banquet" description date time/>
           <EventCard id="general-meeting" description date time/>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+export function UpcomingEventsVertical() {
+  return (
+    <div className="w-full bg-slate-100">
+      <div className="lg:max-w-7xl mx-auto py-16">
+        <h1 className="text-slate-800 font-bold text-4xl mb-4 uppercase">
+          Upcoming Events
+        </h1>
+        <div className="flex flex-col mx-4 gap-4">
+          <EventBanner id="ux-design-challenge" description date time />
+          <EventBanner id="ux-banquet" description date time/>
+          <EventBanner id="general-meeting" description date time/>
         </div>
       </div>
     </div>

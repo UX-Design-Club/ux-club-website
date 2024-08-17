@@ -3,7 +3,7 @@ import { WhoWeAre } from "../ui/whoweare";
 import { OfficerCard } from "../ui/officercard";
 import { OfficerHighlight } from "../ui/officers";
 import { Hero } from "../ui/hero";
-import { eventDatabase } from "../lib/data";
+import { UpcomingEventsVertical } from "../ui/upcomingevents";
 
 export default function Home() {
   return (
@@ -14,9 +14,7 @@ export default function Home() {
         desc="We host a variety of events to help students at UTA learn and grow in their UX Design skills"
         alignRight
       ></Hero>
-      <div>
-        
-      </div>
+      <UpcomingEventsVertical/>
     </main>
   );
 }
