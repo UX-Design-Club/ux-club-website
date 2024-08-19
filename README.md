@@ -1,4 +1,7 @@
 # Welcome!
+[Live Site](https://uxdesignclub-uta.netlify.app/)
+[Edit Events](app/lib/data.ts)
+
 Thank you for taking time to contribute to the official website of the UX Design Club at the University of Texas at Arlington! This project is written in [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) as a way to give students at UTA a way to learn an industry standard model for web app development. This project builds on the principles learned in CTEC 2350 and 3350 and assumes a base level knowledge of [Visual Studio Code](https://code.visualstudio.com/). If you need help editing the project, feel free to ask any questions in the [Discord](https://discord.gg/6qNqhn383m).
 
 ## How to Join the UX Design Club
