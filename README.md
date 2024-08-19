@@ -26,7 +26,7 @@ Press ctrl + ` to open the command terminal, type ``npm run dev``, and hit enter
 
 ## 4. Edit the Codebase
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file. This is your new index page that displays your home page! Other pages can be found through their routes (the about page is found at `app/about/page.tsx`, the contact page is found at `app/contact/page.tsx`, etc.). In Next.js, pages contain custom elements called 'components'. Components are a way to decentralize and reuse your code throughout your project.
 
 
 ## 5. Deployment 
@@ -38,32 +38,32 @@ For now, we are using Netlify to deploy the website to [uxdesignclub.uta.netlify
 
 
 # Resources
-## Next.js
+### Next.js
 To learn more about Next.js, take a look at the following resources:
 
 - [Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn)
 - [Video Example](https://www.youtube.com/watch?v=ZVnjOPwW4ZA)
 
-## Tailwind CSS
+### Tailwind CSS
 To learn more about Tailwind CSS, take a look at the following resources:
 
 - [Documentation](https://tailwindcss.com/docs/installation)
 - [Component Examples](https://tailwindui.com/components)
 
-## Netlify
+### Netlify
 To learn more about Netlify, take a look at the following resources:
 
 - [Documentation](https://docs.netlify.com/)
 
-## GitHub
+### GitHub
 To learn more about GitHub, take a look at the following resources:
 
 - [Hello World Tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world)
 - [GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
 
 
-## VS Code
+### VS Code
 To learn more about Visual Studio Code, take a look at the following resources:
 
 - [Setup Guide](https://code.visualstudio.com/docs/introvideos/basics)
