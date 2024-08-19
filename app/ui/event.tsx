@@ -86,7 +86,7 @@ export function EventBanner({
   if (!asset) return <div></div>;
 
   return (
-    <div className={`${className} py-4 sm:px-4 flex flex-row group gap-4 h-64`}>
+    <div className={`${className} py-4 sm:px-4 flex flex-col md:flex-row group gap-4 h-64`}>
       <div className="rounded-xl overflow-hidden mb-2 aspect-square drop-shadow group-hover:drop-shadow-xl transition-all shadow-black duration-200">
         <Image
           src={`/images/${asset.id}.jpg`}

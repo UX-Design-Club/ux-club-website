@@ -17,7 +17,7 @@ export default function Home() {
       ></Hero>
       <div className="bg-slate-100">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-row pb-32">
+          <div className="flex flex-col md:flex-row pb-32">
             <div className="w-1/2">
               <h3 className="font-bold text-3xl uppercase py-8">
                 Contact Us

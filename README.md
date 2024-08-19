@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome!
+Thank you for taking time to contribute to the official website of the UX Design Club at the University of Texas at Arlington! This project is written in [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) as a way to give students at UTA a way to learn an industry standard model for web app development. This project builds on the principles learned in CTEC 2350 and 3350 and assumes a base level knowledge of [Visual Studio Code](https://code.visualstudio.com/). If you need help editing the project, feel free to ask any questions in the [Discord](https://discord.gg/6qNqhn383m).
 
-## Getting Started
+## How to Join the UX Design Club
+To join this club, please contact us at uxdesignclub.uta@gmail.com and we will get back to you as soon as we can!
 
-First, run the development server:
+# Editing the Project
+In order to keep this project as clean as possible, we ask that you follow a few procedures as you edit this project. This guide is written for use with [GitHub Desktop]() but you can do this with the [command terminal](https://docs.github.com/en/github-cli/github-cli/quickstart) as well!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 1. Clone the Repository to your Local Computer
+In the GitHub app, press the `Add` button and select "Clone Repository...". Then select the folder that you want the project to clone to (must be an empty folder) and paste the Repository URL: https://github.com/UX-Design-Club/ux-club-website.git. You can also find this URL by navigating to the green "<> Code" button on the repository website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![alt text](documentation/images/clonerepo.png)
+
+After cloning the repository, you can now edit the code!
+
+## 2. Create a Branch for Your Changes
+In the GitHub desktop app, create a new branch. Branches are necessary to publish your changes onto the main site. For branch naming, please follow this guide on [conventions](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4) for the best results. 
+
+![alt text](documentation/images/branchexample.png)
+
+## 3. Open the Local Host to View Your Changes
+In Next.js, you will need to open a localhost to view your changes.
+
+Press ctrl + ` to open the command terminal, type ``npm run dev``, and hit enter to start the local host. You can now navigate to [http://localhost:3000](http://localhost:3000) with your browser to see the results.
+
+## 4. Edit the Codebase
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 5. Deployment 
+### Deploying Changes
+To make your change to the site impact the site on all devices, simply open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from your branch to the `master` branch. After the pull request is approved by the webmaster, this change will be merged with the master branch.
 
+### Automatic Updates Through [Netlify](https://app.netlify.com/sites/uxdesignclub-uta/overview)
+For now, we are using Netlify to deploy the website to [uxdesignclub.uta.netlify.app](https://uxdesignclub-uta.netlify.app/). Any changes to the GitHub that are pushed to the main branch will automatically update on the website through Netlify. Update logs will be sent to the UX Club email when the updates are posted.
+
+
+# Resources
+## Next.js
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Video Example](https://www.youtube.com/watch?v=ZVnjOPwW4ZA)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tailwind CSS
+To learn more about Tailwind CSS, take a look at the following resources:
 
-## Deploy on Vercel
+- [Documentation](https://tailwindcss.com/docs/installation)
+- [Component Examples](https://tailwindui.com/components)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Netlify
+To learn more about Netlify, take a look at the following resources:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Documentation](https://docs.netlify.com/)
+
+## GitHub
+To learn more about GitHub, take a look at the following resources:
+
+- [Hello World Tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+- [GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
+
+
+## VS Code
+To learn more about Visual Studio Code, take a look at the following resources:
+
+- [Setup Guide](https://code.visualstudio.com/docs/introvideos/basics)
+- [Version Control in VS Code](https://code.visualstudio.com/docs/introvideos/versioncontrol)
+- [Tailwind Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
