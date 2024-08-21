@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import { OfficerCard } from "./officercard";
 
 export function OfficerHighlight() {
@@ -11,8 +9,14 @@ export function OfficerHighlight() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center flex-wrap items-center">
             <OfficerCard
-              name="Keller Bowman"
-              role="Treasurer"
+              name="Ivy Nguyen"
+              role="President"
+              bio=""
+              pictureURL="/images/keller-bowman.jpg"
+            />
+            <OfficerCard
+              name="Christina Castillo"
+              role="Vice President"
               bio=""
               pictureURL="/images/keller-bowman.jpg"
             />
@@ -23,20 +27,20 @@ export function OfficerHighlight() {
               pictureURL="/images/keller-bowman.jpg"
             />
             <OfficerCard
-              name="Keller Bowman"
-              role="Treasurer"
+              name="Alexandra Gonzales"
+              role="Secretary"
               bio=""
               pictureURL="/images/keller-bowman.jpg"
             />
             <OfficerCard
-              name="Keller Bowman"
-              role="Treasurer"
+              name="Anh Ta"
+              role="Webmaster"
               bio=""
               pictureURL="/images/keller-bowman.jpg"
             />
             <OfficerCard
-              name="Keller Bowman"
-              role="Treasurer"
+              name="Natanael Mazariego"
+              role="Public Relations"
               bio=""
               pictureURL="/images/keller-bowman.jpg"
             />
