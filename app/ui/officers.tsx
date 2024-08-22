@@ -8,17 +8,17 @@ export function OfficerHighlight() {
             Our Officers
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center flex-wrap items-center">
-            <OfficerCard
+        <OfficerCard
               name="Ivy Nguyen"
               role="President"
               bio=""
-              pictureURL="/images/keller-bowman.jpg"
+              pictureURL="/images/ivy-nguyen.png"
             />
             <OfficerCard
               name="Christina Castillo"
               role="Vice President"
               bio=""
-              pictureURL="/images/keller-bowman.jpg"
+              pictureURL="/images/christina-castillo.png"
             />
             <OfficerCard
               name="Keller Bowman"
@@ -30,19 +30,19 @@ export function OfficerHighlight() {
               name="Alexandra Gonzales"
               role="Secretary"
               bio=""
-              pictureURL="/images/keller-bowman.jpg"
+              pictureURL="/images/alex-gonzales.jpg"
             />
             <OfficerCard
               name="Anh Ta"
               role="Webmaster"
               bio=""
-              pictureURL="/images/keller-bowman.jpg"
+              pictureURL="/images/anh-ta.jpg"
             />
             <OfficerCard
-              name="Natanael Mazariego"
-              role="Public Relations"
+              name="Nathan Mazariego"
+              role="Public Relation"
               bio=""
-              pictureURL="/images/keller-bowman.jpg"
+              pictureURL="/images/nathan-mazariego.jpg"
             />
         </div>
       </div>

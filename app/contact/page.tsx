@@ -1,8 +1,8 @@
-import { Hero } from "../ui/hero";
 import Image from "next/image";
-import { GoButton } from "../ui/gobutton";
 import Link from "next/link";
-import { FaInstagram, FaDiscord, FaEnvelope } from "react-icons/fa6";
+import { FaDiscord, FaEnvelope, FaInstagram } from "react-icons/fa6";
+import { GoButton } from "../ui/gobutton";
+import { Hero } from "../ui/hero";
 
 export default function Home() {
   return (
