@@ -37,10 +37,19 @@ export const eventDatabase: Event[] = [
     ""
   ),
   new Event(
-    "general-meeting",
-    "General Meeting",
+    "first-general-meeting",
+    "First General Meeting",
     "Join us for one of our general meetings every third Tuesday night",
     new Date("09-10-2024"),
+    new Date("0000-01-01T18:00z"),
+    "",
+    ""
+  ),
+  new Event(
+    "second-general-meeting",
+    "Second General Meeting",
+    "Join us for one of our general meetings every third Tuesday night",
+    new Date("10-08-2024"),
     new Date("0000-01-01T18:00z"),
     "",
     ""
