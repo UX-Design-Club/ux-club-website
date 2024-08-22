@@ -5,9 +5,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
+import { useRouter } from "next/navigation";
 
 export function Hamburger() {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -30,20 +32,44 @@ export function Hamburger() {
         </button>
         <ul className="">
           <li className="flex flex-col gap-8 justify-center items-center content-center font-bold text-white">
-            <Link href={"/"} className="hover:text-white transition-all">
+            <button
+              onClick={() => {
+                router.push("/");
+                toggleMenu();
+              }}
+              className="hover:text-white transition-all"
+            >
               Home
-            </Link>
-            <Link href={"/about"} className="hover:text-white transition-all">
+            </button>
+            <button
+              onClick={() => {
+                router.push("/about");
+                toggleMenu();
+              }}
+              className="hover:text-white transition-all"
+            >
               About
-            </Link>
-            <Link href={"/events"} className="hover:text-white transition-all">
+            </button>
+            <button
+              onClick={() => {
+                router.push("/events");
+                toggleMenu();
+              }}
+              className="hover:text-white transition-all"
+            >
               Upcoming Events
-            </Link>
-            <Link href={"/contact"} className="hover:text-white transition-all">
+            </button>
+            <button
+              onClick={() => {
+                router.push("/contact");
+                toggleMenu();
+              }}
+              className="hover:text-white transition-all"
+            >
               Contact Us
-            </Link>
+            </button>
             <Link
-              href={"page"}
+              href={"https://forms.gle/W5A4eWQbsXsuRurt8"}
               className="text-white bg-teal-600 hover:bg-teal-500 rounded-xl px-4 mx-4 hover:px-8 hover:mx-0 py-2 transition-all"
             >
               Join Us
