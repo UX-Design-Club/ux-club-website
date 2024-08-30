@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
@@ -41,6 +40,9 @@ export function Hamburger() {
             </Link>
             <Link href={"/contact"} className="hover:text-white transition-all">
               Contact Us
+            </Link>
+            <Link href={"/members"} className="hover:text-white transition-all">
+              Members
             </Link>
             <Link
               href={"page"}
