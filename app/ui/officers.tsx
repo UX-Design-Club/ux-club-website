@@ -33,16 +33,16 @@ export function OfficerHighlight() {
               pictureURL="/images/alex-gonzales.jpg"
             />
             <OfficerCard
-              name="Anh Ta"
-              role="Webmaster"
-              bio=""
-              pictureURL="/images/anh-ta.jpg"
-            />
-            <OfficerCard
               name="Nathan Mazariego"
               role="Public Relation"
               bio=""
               pictureURL="/images/nathan-mazariego.jpg"
+            />
+            <OfficerCard
+              name="Anh Ta"
+              role="Webmaster"
+              bio=""
+              pictureURL="/images/anh-ta.jpg"
             />
         </div>
       </div>

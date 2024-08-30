@@ -1,6 +1,5 @@
-import { OfficerHighlight } from "../ui/officers";
-import { Hero } from "../ui/hero";
 import { GoButton } from "../ui/gobutton";
+import { OfficerHighlight } from "../ui/officers";
 import { SplitBanner } from "../ui/spiltbanner";
 
 export default function About() {

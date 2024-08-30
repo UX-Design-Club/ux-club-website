@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaBars } from "react-icons/fa";
-import { Hamburger } from "./hamburger";
 import { GoButton } from "./gobutton";
+import { Hamburger } from "./hamburger";
 
 export function Navbar() {
   return (
@@ -40,6 +39,11 @@ export function Navbar() {
           <li className="border-2 border-transparent hover:border-b-slate-800 transition-colors duration-100">
             <Link href={"contact"} className="transition-all">
               Contact Us
+            </Link>
+          </li>
+          <li className="border-2 border-transparent hover:border-b-slate-800 transition-colors duration-100">
+            <Link href={"members"} className="transition-all">
+              Members
             </Link>
           </li>
           <li className="flex flex-row">

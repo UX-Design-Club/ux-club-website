@@ -39,7 +39,7 @@ export const eventDatabase: Event[] = [
   new Event(
     "first-general-meeting",
     "First General Meeting",
-    "Join us for one of our general meetings every third Tuesday night",
+    "Join us for our general meeting every second Tuesday of the month.",
     new Date("09-10-2024"),
     new Date("0000-01-01T18:00z"),
     "",
@@ -48,8 +48,17 @@ export const eventDatabase: Event[] = [
   new Event(
     "second-general-meeting",
     "Second General Meeting",
-    "Join us for one of our general meetings every third Tuesday night",
+    "Join us for our general meeting every second Tuesday of the month.",
     new Date("10-08-2024"),
+    new Date("0000-01-01T18:00z"),
+    "",
+    ""
+  ),
+  new Event(
+    "third-general-meeting",
+    "Third General Meeting",
+    "Join us for our general meeting every second Tuesday of the month.",
+    new Date("11-12-2024"),
     new Date("0000-01-01T18:00z"),
     "",
     ""
