@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaDiscord, FaEnvelope, FaInstagram } from "react-icons/fa6";
+import { FaDiscord, FaEnvelope, FaInstagram } from "react-icons/fa";
 import { GoButton } from "../ui/gobutton";
 import { Hero } from "../ui/hero";
 
@@ -18,16 +18,16 @@ export default function Home() {
       <div className="bg-slate-100 py-8">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0 flex flex-col items-center md:items-start">
               <h3 className="font-bold text-2xl md:text-3xl uppercase py-4">
                 Contact Us
               </h3>
               <Image
-                src="/images/uxclublogo.svg"
+                src="/images/uxclublogo_d.svg"
                 alt="UX Club Logo"
                 width={200}
                 height={200}
-                className="mx-auto"
+                className="mx-auto md:mx-0"
               />
             </div>
             <div className="w-full md:w-1/2 px-4">
@@ -38,11 +38,11 @@ export default function Home() {
                 Follow us for updates on events, projects, and opportunities to
                 get involved!
               </p>
-              <ul className="ml-2 pl-2 border-l-2 border-teal-500 flex flex-col text-slate-500 text-xl md:text-2xl mb-4">
+              <ul className="pl-2 border-l-2 border-teal-500 text-slate-500 text-xl md:text-2xl mb-4">
                 <li className="py-2">
                   <Link
                     href="https://www.instagram.com/uxclub.uta/"
-                    className="flex flex-row gap-4 items-center hover:text-slate-400 transition-colors duration-100"
+                    className="flex items-center gap-4 hover:text-slate-400 transition-colors duration-300"
                   >
                     <FaInstagram className="text-2xl md:text-3xl" />
                     <p className="font-semibold text-base md:text-lg">Instagram</p>
@@ -51,7 +51,7 @@ export default function Home() {
                 <li className="py-2">
                   <Link
                     href="https://discord.gg/xhAvcGWRKs"
-                    className="flex flex-row gap-4 items-center hover:text-slate-400 transition-colors duration-100"
+                    className="flex items-center gap-4 hover:text-slate-400 transition-colors duration-300"
                   >
                     <FaDiscord className="text-2xl md:text-3xl" />
                     <p className="font-semibold text-base md:text-lg">Discord</p>
@@ -60,7 +60,7 @@ export default function Home() {
                 <li className="py-2">
                   <Link
                     href="mailto:uxdesignclub.uta@gmail.com"
-                    className="flex flex-row gap-4 items-center hover:text-slate-400 transition-colors duration-100"
+                    className="flex items-center gap-4 hover:text-slate-400 transition-colors duration-300"
                   >
                     <FaEnvelope className="text-2xl md:text-3xl p-1" />
                     <p className="font-semibold text-base md:text-lg">
@@ -77,7 +77,7 @@ export default function Home() {
                 initiatives, please contact us via email at{" "}
                 <Link
                   href="mailto:uxdesignclub.uta@gmail.com"
-                  className="text-teal-500 hover:text-teal-400 transition-colors duration-100"
+                  className="text-teal-500 hover:text-teal-400 transition-colors duration-300"
                 >
                   uxdesignclub.uta@gmail.com
                 </Link>
