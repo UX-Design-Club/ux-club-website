@@ -20,7 +20,7 @@ export default function Home() {
       </Hero>
       <SponsorReel />
       <SplitBanner
-        imgUrl="\events-gallery\fair-day-two.jpg"
+        imgUrl="/images/events-gallery/fair-day-two.jpg"
         altText="Fair Day Activity Photo"
         heading="What is UX Design?"
       >
@@ -33,7 +33,7 @@ export default function Home() {
         ensure the product is intuitive and enjoyable.
       </SplitBanner>
       <SplitBanner
-        imgUrl="\events-gallery\fair-day-three.jpg"
+        imgUrl="/images/events-gallery/fair-day-three.jpg"
         altText="Fair Day Activity Photo"
         leftAlign
       >
