@@ -15,31 +15,37 @@ export default function Home() {
                 joining our club, looking to collaborate on a project, or just
                 want to say hello, we're here to connect with you."
       ></Hero>
-      <div className="bg-slate-100">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row pb-32">
-            <div className="w-1/2">
-              <h3 className="font-bold text-3xl uppercase py-8">
+      <div className="bg-slate-100 py-8">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+              <h3 className="font-bold text-2xl md:text-3xl uppercase py-4">
                 Contact Us
               </h3>
-              <Image src={""} alt="" width={512} height={512} />
+              <Image
+                src="/images/uxclublogo.svg"
+                alt="UX Club Logo"
+                width={200}
+                height={200}
+                className="mx-auto"
+              />
             </div>
-            <div className="w-1/2">
-              <h3 className="font-bold text-3xl uppercase py-8">
+            <div className="w-full md:w-1/2 px-4">
+              <h3 className="font-bold text-2xl md:text-3xl uppercase py-4">
                 Join Our Community
               </h3>
-              <p>
+              <p className="mb-4">
                 Follow us for updates on events, projects, and opportunities to
                 get involved!
               </p>
-              <ul className="ml-2 pl-2 border-l-2 border-teal-500 border-solid flex flex-col text-slate-500 text-3xl m-4">
+              <ul className="ml-2 pl-2 border-l-2 border-teal-500 flex flex-col text-slate-500 text-xl md:text-2xl mb-4">
                 <li className="py-2">
                   <Link
                     href="https://www.instagram.com/uxclub.uta/"
                     className="flex flex-row gap-4 items-center hover:text-slate-400 transition-colors duration-100"
                   >
-                    <FaInstagram />
-                    <p className="font-semibold text-base">Instagram</p>
+                    <FaInstagram className="text-2xl md:text-3xl" />
+                    <p className="font-semibold text-base md:text-lg">Instagram</p>
                   </Link>
                 </li>
                 <li className="py-2">
@@ -47,8 +53,8 @@ export default function Home() {
                     href="https://discord.gg/xhAvcGWRKs"
                     className="flex flex-row gap-4 items-center hover:text-slate-400 transition-colors duration-100"
                   >
-                    <FaDiscord />
-                    <p className="font-semibold text-base">Discord</p>
+                    <FaDiscord className="text-2xl md:text-3xl" />
+                    <p className="font-semibold text-base md:text-lg">Discord</p>
                   </Link>
                 </li>
                 <li className="py-2">
@@ -56,17 +62,17 @@ export default function Home() {
                     href="mailto:uxdesignclub.uta@gmail.com"
                     className="flex flex-row gap-4 items-center hover:text-slate-400 transition-colors duration-100"
                   >
-                    <FaEnvelope className="p-1"/>
-                    <p className="font-semibold text-base">
+                    <FaEnvelope className="text-2xl md:text-3xl p-1" />
+                    <p className="font-semibold text-base md:text-lg">
                       uxdesignclub.uta@gmail.com
                     </p>
                   </Link>
                 </li>
               </ul>
-              <h3 className="font-bold text-3xl uppercase py-8">
+              <h3 className="font-bold text-2xl md:text-3xl uppercase py-4">
                 Sponsorship Opportunities
               </h3>
-              <p>
+              <p className="mb-4">
                 If you're interested in sponsoring our club or supporting our
                 initiatives, please contact us via email at{" "}
                 <Link
@@ -76,16 +82,16 @@ export default function Home() {
                   uxdesignclub.uta@gmail.com
                 </Link>
               </p>
-              <h3 className="font-bold text-3xl uppercase py-8">
+              <h3 className="font-bold text-2xl md:text-3xl uppercase py-4">
                 Become a Member
               </h3>
-              <p>
+              <p className="mb-4">
                 Interested in becoming a member? Fill out our online form and
                 someone from our team will reach out to you shortly.
               </p>
-              <div className="flex flex-row m-8">
+              <div className="flex justify-center md:justify-start">
                 <GoButton
-                  href="https://forms.gle/W5A4eWQbsXsuRurt8"
+                  href="https://forms.gle/pQCUk7XubuwZZsMn7"
                   text="Join Us"
                   dark
                 />

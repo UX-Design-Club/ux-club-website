@@ -11,6 +11,7 @@ export function Hamburger() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div>
       <button onClick={toggleMenu}>
@@ -19,15 +20,13 @@ export function Hamburger() {
 
       <div
         className={`${
-          isOpen
-            ? ""
-            : "hidden"
+          isOpen ? "" : "hidden"
         } fixed h-dvh w-dvw top-0 left-0 bg-teal-400 dark:bg-teal-900 z-30 flex flex-col justify-center`}
       >
         <button onClick={toggleMenu}>
           <FaX className={`text-4xl fixed right-5 top-5 text-white ${isOpen ? "" : "hidden"}`} />
         </button>
-        <ul className="">
+        <ul>
           <li className="flex flex-col gap-8 justify-center items-center content-center font-bold text-white">
             <Link href={"/"} className="hover:text-white transition-all">
               Home
@@ -45,7 +44,7 @@ export function Hamburger() {
               Members
             </Link>
             <Link
-              href={"page"}
+              href="https://forms.gle/pQCUk7XubuwZZsMn7"
               className="text-white bg-teal-600 hover:bg-teal-500 rounded-xl px-4 mx-4 hover:px-8 hover:mx-0 py-2 transition-all"
             >
               Join Us

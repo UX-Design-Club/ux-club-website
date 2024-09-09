@@ -7,11 +7,19 @@ export function OfficerCard({
   role,
   pictureURL,
   bio,
+  linkedin,
+  github,
+  twitter,
+  email,
 }: {
   role: string;
   name: string;
   pictureURL: string;
   bio: string;
+  linkedin?: string;
+  github?: string;
+  twitter?: string;
+  email?: string;
 }) {
   return (
     <div className="flex flex-col justify-center items-center max-w-xs mx-auto p-4">
@@ -30,18 +38,42 @@ export function OfficerCard({
       </div>
       <p className="text-center text-slate-600 mb-4">{bio}</p>
       <div className="flex flex-row flex-nowrap justify-center gap-6">
-        <a href={`https://linkedin.com/in/${name}`} target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
-        </a>
-        <a href={`https://github.com/${name}`} target="_blank" rel="noopener noreferrer">
-          <FaGithub className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
-        </a>
-        <a href={`https://twitter.com/${name}`} target="_blank" rel="noopener noreferrer">
-          <FaTwitter className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
-        </a>
-        <a href={`mailto:${name}@example.com`} target="_blank" rel="noopener noreferrer">
-          <GrMail className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
-        </a>
+        {linkedin && (
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
+          </a>
+        )}
+        {github && (
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
+          </a>
+        )}
+        {twitter && (
+          <a
+            href={twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
+          </a>
+        )}
+        {email && (
+          <a
+            href={`mailto:${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GrMail className="text-slate-400 hover:text-slate-500 text-lg transition-colors" />
+          </a>
+        )}
       </div>
     </div>
   );

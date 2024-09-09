@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FaDiscord, FaInstagram } from "react-icons/fa";
 
@@ -11,13 +10,16 @@ export function Footer() {
             <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all" href={"/"}>Home</Link>
           </li>
           <li>
-            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/about"}>About Us</Link>
+            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/about"}>About</Link>
           </li>
           <li>
             <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/events"}>Upcoming Events</Link>
           </li>
           <li>
             <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/contact"}>Contact Us</Link>
+          </li>
+          <li>
+            <Link className="hover:border-b-white py-1 border-2 border-transparent transition-all"  href={"/members"}>Members</Link>
           </li>
         </ul>
         <div className="flex flex-row justify-center gap-6 my-4 text-2xl mx-auto">
