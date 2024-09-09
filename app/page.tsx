@@ -1,10 +1,9 @@
-import Image from "next/image";
+import { GoButton } from "./ui/gobutton";
 import { Hero } from "./ui/hero";
+import { PrimaryButton } from "./ui/primarybutton";
+import { SplitBanner } from "./ui/spiltbanner";
 import { SponsorReel } from "./ui/sponsorreel";
 import { UpcomingEvents } from "./ui/upcomingevents";
-import { PrimaryButton } from "./ui/primarybutton";
-import { GoButton } from "./ui/gobutton";
-import { SplitBanner } from "./ui/spiltbanner";
 
 export default function Home() {
   return (
@@ -21,8 +20,8 @@ export default function Home() {
       </Hero>
       <SponsorReel />
       <SplitBanner
-        imgUrl="/images/uta-building.jpg"
-        altText="Building on UTA"
+        imgUrl="\events-gallery\fair-day-two.jpg"
+        altText="Fair Day Activity Photo"
         heading="What is UX Design?"
       >
         User experience design (UX design) is the process of creating products
@@ -34,8 +33,8 @@ export default function Home() {
         ensure the product is intuitive and enjoyable.
       </SplitBanner>
       <SplitBanner
-        imgUrl="/images/uta-building.jpg"
-        altText="Building on UTA"
+        imgUrl="\events-gallery\fair-day-three.jpg"
+        altText="Fair Day Activity Photo"
         leftAlign
       >
         The <span className="font-bold text-teal-800">UX Design Club</span> aims

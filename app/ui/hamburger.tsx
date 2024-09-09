@@ -50,6 +50,7 @@ export function Hamburger() {
           <button
             onClick={() => {
               router.push("/events");
+              
               toggleMenu();
             }}
             className="hover:text-white transition-all"
