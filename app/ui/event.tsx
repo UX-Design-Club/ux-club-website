@@ -9,6 +9,7 @@ export function EventCard({
   time,
   shortDesc,
   pageLink,
+  room,  // Add room prop
 }: {
   id: string;
   className?: string;
@@ -16,6 +17,7 @@ export function EventCard({
   time?: boolean;
   shortDesc?: boolean;
   pageLink?: boolean;
+  room?: boolean;  // Add room prop type
 }) {
   const asset = eventDatabase.find((item) => item.id === id);
 
@@ -51,6 +53,9 @@ export function EventCard({
             { timeZone: "UTC", hour: "numeric", minute: "2-digit" }
           )}`}</h4>
         )}
+        {room && asset.room && (  // Render room if available
+          <h4 className="mt-2 text-lg capitalize text-slate-700">{`Room: ${asset.room}`}</h4>
+        )}
       </div>
 
       {shortDesc && <p className="my-2">{asset.shortDesc}</p>}
@@ -64,7 +69,6 @@ export function EventCard({
 }
 
 
-
 export function EventBanner({
   id,
   className,
@@ -72,6 +76,7 @@ export function EventBanner({
   date,
   time,
   pageLink,
+  room,  // Add room prop
 }: {
   id: string;
   className?: string;
@@ -79,6 +84,7 @@ export function EventBanner({
   date?: boolean;
   time?: boolean;
   pageLink?: boolean;
+  room?: boolean;  // Add room prop type
 }) {
   const asset = eventDatabase.find((item) => item.id === id);
 
@@ -114,6 +120,9 @@ export function EventBanner({
               "en-us",
               { timeZone: "UTC", hour: "numeric", minute: "2-digit" }
             )}`}</h4>
+          )}
+          {room && asset.room && (  // Render room if available
+            <h4 className="text-lg capitalize text-slate-700">{`Room: ${asset.room}`}</h4>
           )}
         </div>
         {description && <p className="my-2">{asset.shortDesc}</p>}
