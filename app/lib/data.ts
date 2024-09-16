@@ -6,6 +6,7 @@ export class Event {
   id: string;
   location?: string;
   href?: string;
+  room?: string;
 
   constructor(
     id: string,
@@ -14,7 +15,8 @@ export class Event {
     date?: Date,
     time?: Date,
     location?: string,
-    href?: string
+    href?: string,
+    room?: string
   ) {
     this.id = id;
     this.title = title;
@@ -23,53 +25,63 @@ export class Event {
     if (time) this.time = time;
     if (location) this.location = location;
     if (href) this.href = href;
+    if (room) this.room = room;  
   }
 }
 
 export const eventDatabase: Event[] = [
   new Event(
-    "ux-design-challenge",
-    "UX Design Challenge",
-    "Join us for our annual UX Design challenge! Proudly sponsored by COMPANY.",
-    new Date("03-08-2025"),
-    new Date("0000-01-01T17:00z"),
+    "social-event-1",
+    "Board Game Night Social",
+    "Join us for our board game night social.",
+    new Date("2024-09-19"),
+    new Date("2024-09-19T17:00:00Z"),
     "",
-    ""
-  ),
-  new Event(
-    "first-general-meeting",
-    "First General Meeting",
-    "Join us for our general meeting every second Tuesday of the month.",
-    new Date("09-10-2024"),
-    new Date("0000-01-01T18:00z"),
     "",
-    ""
+    "FA 327A" 
   ),
+
   new Event(
     "second-general-meeting",
     "Second General Meeting",
-    "Join us for our general meeting every second Tuesday of the month.",
-    new Date("10-08-2024"),
-    new Date("0000-01-01T18:00z"),
+    "Join us for our second general meeting.",
+    new Date("2024-10-03"),
+    new Date("2024-10-03T18:00:00Z"),
     "",
-    ""
+    "",
+    "TBD"
   ),
+
   new Event(
     "third-general-meeting",
     "Third General Meeting",
-    "Join us for our general meeting every second Tuesday of the month.",
-    new Date("11-12-2024"),
-    new Date("0000-01-01T18:00z"),
+    "Join us for our third general meeting.",
+    new Date("2024-11-07"),
+    new Date("2024-11-07T18:00:00Z"),
     "",
-    ""
+    "",
+    "TBD"  
   ),
+
+  new Event(
+    "ux-design-challenge",
+    "UX Design Challenge",
+    "Details about the UX Design Challenge.",
+    new Date("2024-12-15"),
+    new Date("2024-12-15T18:00:00Z"),
+    "",
+    "",
+    "TBD" 
+  ),
+
   new Event(
     "ux-banquet",
     "UX Banquet",
+    "Details about the UX Banquet.",
+    new Date("2025-01-20"),
+    new Date("2025-01-20T19:00:00Z"),
     "",
-    new Date("05-08-2025"),
-    new Date("0000-01-01T19:30z"),
     "",
-    ""
+    "TBD"  
   ),
 ];
