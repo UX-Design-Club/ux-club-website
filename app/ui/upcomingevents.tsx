@@ -14,7 +14,6 @@ export function UpcomingEvents() {
           Come join us for one of our upcoming events!
         </p>
         <div className="flex flex-col mx-4 md:flex-row gap-4">
-          <EventCard id="social-event-1" date time room />
           <EventCard id="second-general-meeting" date time room />
           <EventCard id="third-general-meeting" date time room />
           {/*<EventCard id="ux-design-challenge" date time room />
@@ -33,7 +32,6 @@ export function UpcomingEventsVertical() {
           Upcoming Events
         </h1>
         <div className="flex flex-col mx-4 gap-4">
-          <EventBanner id="social-event-1" description date time room />
           <EventBanner id="second-general-meeting" description date time room />
           <EventBanner id="third-general-meeting" description date time room />
           {/*<EventBanner id="ux-design-challenge" description date time room />

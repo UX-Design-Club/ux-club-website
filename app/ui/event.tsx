@@ -9,7 +9,7 @@ export function EventCard({
   time,
   shortDesc,
   pageLink,
-  room,  // Add room prop
+  room,
 }: {
   id: string;
   className?: string;
@@ -17,7 +17,7 @@ export function EventCard({
   time?: boolean;
   shortDesc?: boolean;
   pageLink?: boolean;
-  room?: boolean;  // Add room prop type
+  room?: boolean; 
 }) {
   const asset = eventDatabase.find((item) => item.id === id);
 
@@ -53,7 +53,7 @@ export function EventCard({
             { timeZone: "UTC", hour: "numeric", minute: "2-digit" }
           )}`}</h4>
         )}
-        {room && asset.room && (  // Render room if available
+        {room && asset.room && (
           <h4 className="mt-2 text-lg capitalize text-slate-700">{`Room: ${asset.room}`}</h4>
         )}
       </div>
@@ -76,7 +76,7 @@ export function EventBanner({
   date,
   time,
   pageLink,
-  room,  // Add room prop
+  room,
 }: {
   id: string;
   className?: string;
@@ -84,7 +84,7 @@ export function EventBanner({
   date?: boolean;
   time?: boolean;
   pageLink?: boolean;
-  room?: boolean;  // Add room prop type
+  room?: boolean;
 }) {
   const asset = eventDatabase.find((item) => item.id === id);
 

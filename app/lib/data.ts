@@ -30,16 +30,6 @@ export class Event {
 }
 
 export const eventDatabase: Event[] = [
-  new Event(
-    "social-event-1",
-    "Board Game Night Social",
-    "Join us for our board game night social.",
-    new Date("2024-09-19"),
-    new Date("2024-09-19T17:00:00Z"),
-    "",
-    "",
-    "FA 327A" 
-  ),
 
   new Event(
     "second-general-meeting",
@@ -49,7 +39,7 @@ export const eventDatabase: Event[] = [
     new Date("2024-10-03T18:00:00Z"),
     "",
     "",
-    "TBD"
+    "Online"
   ),
 
   new Event(
@@ -60,7 +50,7 @@ export const eventDatabase: Event[] = [
     new Date("2024-11-07T18:00:00Z"),
     "",
     "",
-    "TBD"  
+    "TBD"
   ),
 
   new Event(

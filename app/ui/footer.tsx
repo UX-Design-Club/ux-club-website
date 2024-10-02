@@ -23,10 +23,10 @@ export function Footer() {
           </li>
         </ul>
         <div className="flex flex-row justify-center gap-6 my-4 text-2xl mx-auto">
-          <Link href={"/"} className="hover:text-gray-300 transition-colors">
+          <Link href={"https://discord.gg/kPsnBXDY"} className="hover:text-gray-300 transition-colors">
             <FaDiscord />
           </Link>
-          <Link href={"/"} className="hover:text-gray-300 transition-colors">
+          <Link href={"https://www.instagram.com/uxclub.uta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} className="hover:text-gray-300 transition-colors">
             <FaInstagram />
           </Link>
         </div>
