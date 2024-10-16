@@ -10,6 +10,7 @@ export function EventCard({
   shortDesc,
   pageLink,
   room,
+  location,
 }: {
   id: string;
   className?: string;
@@ -17,7 +18,8 @@ export function EventCard({
   time?: boolean;
   shortDesc?: boolean;
   pageLink?: boolean;
-  room?: boolean; 
+  room?: boolean;
+  location?: boolean;
 }) {
   const asset = eventDatabase.find((item) => item.id === id);
 
@@ -54,7 +56,7 @@ export function EventCard({
           )}`}</h4>
         )}
         {room && asset.room && (
-          <h4 className="mt-2 text-lg capitalize text-slate-700">{`Room: ${asset.room}`}</h4>
+          <h4 className="mt-2 text-lg capitalize text-slate-700">{`Location: ${asset.room}`}</h4>
         )}
       </div>
 
@@ -122,7 +124,7 @@ export function EventBanner({
             )}`}</h4>
           )}
           {room && asset.room && (  // Render room if available
-            <h4 className="text-lg capitalize text-slate-700">{`Room: ${asset.room}`}</h4>
+            <h4 className="text-lg capitalize text-slate-700">{`Location: ${asset.room}`}</h4>
           )}
         </div>
         {description && <p className="my-2">{asset.shortDesc}</p>}

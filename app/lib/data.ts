@@ -32,15 +32,27 @@ export class Event {
 export const eventDatabase: Event[] = [
 
   new Event(
-    "second-general-meeting",
-    "Second General Meeting",
-    "Join us for our second general meeting.",
-    new Date("2024-10-08"),
-    new Date("2024-10-03T18:00:00Z"),
+    "bake-sale",
+    "Bake Sale",
+    "Support and join us for our bake sale!",
+    new Date("2024-10-16"),
+    new Date("2024-10-16T10:00:00Z"),
     "",
     "",
-    "Online"
+    "In front of the University Center (UC)"
   ),
+
+  new Event(
+    "social-event",
+    "Pickle Ball",
+    "Join us for some fun at Chicken N Pickle!",
+    new Date("2024-10-22"),
+    new Date("2024-10-22T10:00:00Z"),
+    "",
+    "",
+    "Chicken N Pickle"
+  ),
+
 
   new Event(
     "third-general-meeting",
