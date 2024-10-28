@@ -1,6 +1,6 @@
 import { EventBanner, EventCard } from "./event";
 const events = {
-
+  
 }
 
 export function UpcomingEvents() {
@@ -14,7 +14,7 @@ export function UpcomingEvents() {
           Come join us for one of our upcoming events!
         </p>
         <div className="flex flex-col mx-4 md:flex-row gap-4">
-          <EventCard id="social-event" date time room />
+          <EventCard id="workshop" date time room />
           <EventCard id="third-general-meeting" date time location room />
           {/*<EventCard id="ux-design-challenge" date time room />
           <EventCard id="ux-banquet" date time room />*/}``
@@ -32,7 +32,7 @@ export function UpcomingEventsVertical() {
           Upcoming Events
         </h1>
         <div className="flex flex-col mx-4 gap-4">
-          <EventBanner id="social-event" description date time room />
+          <EventBanner id="workshop" description date time room />
           <EventBanner id="third-general-meeting" description date time room />
           {/*<EventBanner id="ux-design-challenge" description date time room />
           <EventBanner id="ux-banquet" description date time room />*/}
