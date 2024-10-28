@@ -31,14 +31,14 @@ export class Event {
 
 export const eventDatabase: Event[] = [
   new Event(
-    "social-event",
-    "Pickle Ball",
-    "Join us for some fun at Chicken N Pickle!",
-    new Date("2024-10-22"),
-    new Date("2024-10-22T10:00:00Z"),
+    "workshop",
+    "Figma Workshop",
+    "Join us for our first workshop hosted by Christine Thomas and Madison Bonds!",
+    new Date("2024-10-29"),
+    new Date("2024-10-22T18:00:00Z"),
     "",
     "",
-    "Chicken N Pickle"
+    "Fine Arts Building - Alamo Lab"
   ),
 
 
