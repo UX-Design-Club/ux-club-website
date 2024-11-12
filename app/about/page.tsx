@@ -6,7 +6,7 @@ export default function About() {
   return (
     <main className="pt-16">
       <SplitBanner
-        imgUrl="/images/team-photo.jpg"
+        imgUrl="/images/officers-photos/group-photo.jpg"
         altText="Leadership Team tabling at Student Organization Fair"
         heading="Who We Are"
       >
