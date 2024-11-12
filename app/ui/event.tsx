@@ -123,7 +123,7 @@ export function EventBanner({
               { timeZone: "UTC", hour: "numeric", minute: "2-digit" }
             )}`}</h4>
           )}
-          {room && asset.room && (  // Render room if available
+          {room && asset.room && (
             <h4 className="text-lg capitalize text-slate-700">{`Location: ${asset.room}`}</h4>
           )}
         </div>

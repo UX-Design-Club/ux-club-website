@@ -1,6 +1,11 @@
 import Image from "next/image";
 
 export default function Gallery() {
+  const figmaWorkshopImages = Array.from({ length: 6 }, (_, i) => ({
+    src: `/images/workshop-fa2024/workshop-${i + 1}.jpg`,
+    alt: `Figma Workshop ${i + 1}`,
+  }));
+
   const firstGeneralMeetingImages = Array.from({ length: 24 }, (_, i) => ({
     src: `/images/first-gm/first-gm (${i + 1}).jpg`,
     alt: `First General Meeting ${i + 1}`,
@@ -13,6 +18,21 @@ export default function Gallery() {
           Events Gallery
         </h1>
         <p>Explore the gallery of our club events below.</p>
+
+        <h2 className="text-slate-800 font-semibold text-3xl mt-8 mb-4">Figma Workshop</h2>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {figmaWorkshopImages.map((image, index) => (
+            <div key={index} className="relative w-full h-60 bg-gray-200">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                style={{ objectFit: 'cover' }}
+                className="w-full h-full"
+              />
+            </div>
+          ))}
+        </div>
 
         <h2 className="text-slate-800 font-semibold text-3xl mt-8 mb-4">First General Meeting</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
