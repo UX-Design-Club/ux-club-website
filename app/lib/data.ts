@@ -25,34 +25,32 @@ export class Event {
     if (time) this.time = time;
     if (location) this.location = location;
     if (href) this.href = href;
-    if (room) this.room = room;  
+    if (room) this.room = room;
   }
 }
 
-export const eventDatabase: Event[] = [
+// Array of Event objects
+export const eventDatabase = [
   new Event(
-    "workshop",
-    "Figma Workshop",
-    "Join us for our first workshop hosted by Christine Thomas and Madison Bonds!",
-    new Date("2024-10-29"),
-    new Date("2024-10-22T18:00:00Z"),
-    "",
-    "",
-    "Fine Arts Building - Alamo Lab"
-  ),
-
-
-  new Event(
-    "third-general-meeting",
-    "Third General Meeting",
-    "Join us for our third general meeting.",
-    new Date("2024-11-12"),
-    new Date("2024-11-07T18:00:00Z"),
+    "first-general-meeting",
+    "First General Meeting",
+    "Join us for our first general meeting of Spring 2025 semester",
+    new Date("2024-01-28"),
+    new Date("2024-01-28T17:00:00Z"),
     "",
     "",
     "TBD"
   ),
-
+  new Event(
+    "second-general-meeting",
+    "Second General Meeting",
+    "Join us for our second general meeting of Spring 2025 semester",
+    new Date("2024-02-25"),
+    new Date("2024-02-25T17:00:00Z"),
+    "",
+    "",
+    "TBD"
+  ),
   new Event(
     "ux-design-challenge",
     "UX Design Challenge",
@@ -61,9 +59,8 @@ export const eventDatabase: Event[] = [
     new Date("2024-12-15T18:00:00Z"),
     "",
     "",
-    "TBD" 
+    "TBD"
   ),
-
   new Event(
     "ux-banquet",
     "UX Banquet",
@@ -72,6 +69,6 @@ export const eventDatabase: Event[] = [
     new Date("2025-01-20T19:00:00Z"),
     "",
     "",
-    "TBD"  
+    "TBD"
   ),
 ];
