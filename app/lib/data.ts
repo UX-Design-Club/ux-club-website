@@ -42,7 +42,7 @@ export const eventDatabase = [
     "TBD"
   ),
   new Event(
-    "valentine-fundraiser",
+    "second-general-meeting",
     "Valentine-Fundraiser",
     "Join us for our Valentine Fundraiser!",
     new Date("2026-02-11"),
