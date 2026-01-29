@@ -34,19 +34,19 @@ export const eventDatabase = [
   new Event(
     "first-general-meeting",
     "First General Meeting",
-    "Join us for our first general meeting of Spring 2025 semester",
-    new Date("2024-01-28"),
-    new Date("2024-01-28T17:00:00Z"),
+    "Join us for our first general meeting of Spring 2026 semester!",
+    new Date("2026-02-05"),
+    new Date("2026-02-05T17:00:00Z"),
     "",
     "",
     "TBD"
   ),
   new Event(
-    "second-general-meeting",
-    "Second General Meeting",
-    "Join us for our second general meeting of Spring 2025 semester",
-    new Date("2024-02-25"),
-    new Date("2024-02-25T17:00:00Z"),
+    "valentine-fundraiser",
+    "Valentine Fundraiser",
+    "Join us for our Valentine Fundraiser!",
+    new Date("2026-02-11"),
+    new Date("2026-02-11T11:00:00Z"),
     "",
     "",
     "TBD"
