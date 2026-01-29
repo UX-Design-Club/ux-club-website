@@ -44,7 +44,7 @@ export const eventDatabase = [
   new Event(
     "second-general-meeting",
     "Second General Meeting",
-    "Join us for our first general meeting of Spring 2026 semester!",
+    "Join us for our second general meeting of Spring 2026 semester!",
     new Date("2026-03-05"),
     new Date("2024-02-11T17:00:00Z"),
     "",
