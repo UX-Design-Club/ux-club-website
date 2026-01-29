@@ -42,8 +42,8 @@ export const eventDatabase = [
     "TBD"
   ),
   new Event(
-    "valentine-fundraiser",
-    "Valentine-Fundraiser",
+    "second-general-meeting",
+    "Second General Meeting",
     "Join us for our first general meeting of Spring 2026 semester!",
     new Date("2026-02-11"),
     new Date("2024-02-11T11:00:00Z"),
