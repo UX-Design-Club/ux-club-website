@@ -46,7 +46,7 @@ export const eventDatabase = [
     "Second General Meeting",
     "Join us for our first general meeting of Spring 2026 semester!",
     new Date("2026-03-05"),
-    new Date("2024-02-11T5:00:00Z"),
+    new Date("2024-02-11T17:00:00Z"),
     "",
     "",
     "TBD"
@@ -55,8 +55,8 @@ export const eventDatabase = [
     "ux-design-challenge",
     "UX Design Challenge",
     "Details about the UX Design Challenge.",
-    new Date("2024-12-15"),
-    new Date("2024-12-15T18:00:00Z"),
+    new Date("2026-12-15"),
+    new Date("2026-12-15T18:00:00Z"),
     "",
     "",
     "TBD"
@@ -65,8 +65,8 @@ export const eventDatabase = [
     "ux-banquet",
     "UX Banquet",
     "Details about the UX Banquet.",
-    new Date("2025-01-20"),
-    new Date("2025-01-20T19:00:00Z"),
+    new Date("2026-01-20"),
+    new Date("2026-01-20T19:00:00Z"),
     "",
     "",
     "TBD"
