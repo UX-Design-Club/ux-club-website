@@ -47,7 +47,7 @@ export function Navbar() {
             </Link>
           </li>
           <li className="flex flex-row">
-            <GoButton href="https://forms.gle/pQCUk7XubuwZZsMn7" text="Join Us" dark />
+            <GoButton href="https://docs.google.com/forms/d/e/1FAIpQLScL8UpFtCC1le7_2U92xTJzdilZXaWNyBKfEaNRsTTviibnYQ/viewform" text="Join Us" dark />
           </li>
         </ul>
       </div>
