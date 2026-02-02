@@ -39,7 +39,7 @@ export const eventDatabase = [
     new Date("2024-02-05T17:00:00Z"),
     "",
     "",
-    "TBD"
+    "NH 105"
   ),
   new Event(
     "second-general-meeting",
