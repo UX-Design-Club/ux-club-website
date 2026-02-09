@@ -32,23 +32,23 @@ export class Event {
 // Array of Event objects
 export const eventDatabase = [
   new Event(
-    "first-general-meeting",
-    "First General Meeting",
-    "Join us for our first general meeting of Spring 2026 semester!",
-    new Date("2026-02-05"),
-    new Date("2024-02-05T17:00:00Z"),
+    "fundraiser",
+    "Valentine Fundraiser",
+    "Join us for our Valetine Fundraiser!",
+    new Date("2026-02-11"),
+    new Date("2024-02-11T11:00:00Z - T14:00:00Z "),
     "",
     "",
-    "TBD"
+    "UC West"
   ),
   new Event(
-    "second-general-meeting",
-    "Second General Meeting",
-    "Join us for our second general meeting of Spring 2026 semester!",
-    new Date("2026-03-05"),
-    new Date("2024-02-11T17:00:00Z"),
-    "",
-    "",
+    "workshop",
+    "Figma: Foundational & Future",
+    "Join us for our Figma: Foundational & Future — Using Figma to communicate your solution, from the basics to AI-assisted",
+    "Guest Speaker: John Keese",
+    "Bring your laptop and have a Figma account already set up!",
+    new Date("2026-02-12"),
+    new Date("2024-02-12T17:30:00Z"),
     "TBD"
   ),
   new Event(
