@@ -32,7 +32,7 @@ export class Event {
 // Array of Event objects
 export const eventDatabase = [
   new Event(
-    "valentine-fundraiser",
+    "first-general-meeting",
     "Valentine Fundraiser",
     "Join us for our Valetine Fundraiser!",
     new Date("2026-02-11"),
@@ -42,7 +42,7 @@ export const eventDatabase = [
     "UC West"
   ),
   new Event(
-    "figma-foundational-future",
+    "second-general-meeting",
     "Figma: Foundational & Future",
     "Join us for our Figma: Foundational & Future — Using Figma to communicate your solution, from the basics to AI-assisted",
     "Guest Speaker: John Keese",
