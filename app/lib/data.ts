@@ -44,11 +44,11 @@ export const eventDatabase = [
   new Event(
     "second-general-meeting",
     "Figma: Foundational & Future",
-    "Join us for our Figma: Foundational & Future — Using Figma to communicate your solution, from the basics to AI-assisted",
+    "Join us for our Figma: Foundational & Future — Using Figma to communicate your solution, from the basics to AI-assisted. Guest Speaker: John Keese. Bring your laptop and have your Figma account already set up!",
     new Date("2026-02-12"),
     new Date("2024-02-12T17:30:00Z"),
-    "Guest Speaker: John Keese",
-    "Bring your laptop and have your Figma account already set up!",
+    "",
+    "",
     "TBD"
   ),
   new Event(
