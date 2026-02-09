@@ -32,11 +32,11 @@ export class Event {
 // Array of Event objects
 export const eventDatabase = [
   new Event(
-    "first-general-meeting",
+    "valentine-fundraiser",
     "Valentine Fundraiser",
     "Join us for our Valetine Fundraiser!",
     new Date("2026-02-11"),
-    new Date("2024-02-11T11:00:00Z"),
+    new Date("2024-02-11T11:00:00Z - T14:00:00Z "),
     "",
     "",
     "UC West"
