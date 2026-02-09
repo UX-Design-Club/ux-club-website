@@ -33,10 +33,10 @@ export class Event {
 export const eventDatabase = [
   new Event(
     "first-general-meeting",
-    "First General Meeting",
-    "Join us for our first general meeting of Spring 2026 semester!",
-    new Date("2026-02-05"),
-    new Date("2024-02-05T17:00:00Z"),
+    "Valentine Fundraiser",
+    "Join us for our Valetine Fundraiser!",
+    new Date("2026-02-11"),
+    new Date("2024-02-11T11:00:00Z"),
     "",
     "",
     "NH 105"
