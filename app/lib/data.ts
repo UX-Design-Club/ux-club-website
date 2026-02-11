@@ -34,7 +34,7 @@ export const eventDatabase = [
   new Event(
     "first-general-meeting",
     "Valentine Fundraiser",
-    "Join us for our Valetine Fundraiser!",
+    "Join us for our Valetine Fundraiser! Enjoy some sweet treats and matcha made by our officers!",
     new Date("2026-02-11"),
     new Date("2024-02-11T11:00:00Z"),
     "",
