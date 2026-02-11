@@ -49,7 +49,7 @@ export const eventDatabase = [
     new Date("2024-02-12T17:30:00Z"),
     "",
     "",
-    "TBD"
+    "NH 105"
   ),
   new Event(
     "ux-design-challenge",
