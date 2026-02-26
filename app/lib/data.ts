@@ -33,23 +33,23 @@ export class Event {
 export const eventDatabase = [
   new Event(
     "first-general-meeting",
-    "Activity Fair",
-    "Come see us at UTA's Activity Fair! Learn more about our club by asking our officers anything you'd like!",
-    new Date("2026-02-21"),
-    new Date("2024-02-21T08:00:00Z"),
+    "The Art of Sampling",
+    "Hands-on design workshop exploring how to develop strong visual taste and make more intentional design decisions.",
+    new Date("2026-02-26"),
+    new Date("2024-02-26T017:30:00Z"),
     "",
     "",
-    "UC Mall"
+    "University Hall room 08"
   ),
   new Event(
     "second-general-meeting",
-    "From Bland to Beauty",
-    "Hands on workshop where you'll create aesthetically delightful and useful interfaces!",
-    new Date("2026-02-26"),
-    new Date("2024-02-26T17:30:00Z"),
+    "TBNR Agency Tour",
+    "Pre scheduled Agency Tour with TBNR Productions. Applications Closed.",
+    new Date("2026-03-02"),
+    new Date("2024-03-02T19:30:00Z"),
     "",
     "",
-    "TBD"
+    "TBNR Productions"
   ),
   new Event(
     "ux-design-challenge",
