@@ -46,7 +46,7 @@ export const eventDatabase = [
     "TBNR Agency Tour",
     "Pre scheduled Agency Tour with TBNR Productions. Applications Closed.",
     new Date("2026-03-02"),
-    new Date("2024-03-02T9:30:00Z"),
+    new Date("2024-03-02T09:30:00Z"),
     "",
     "",
     "TBNR Productions"
