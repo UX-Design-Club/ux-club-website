@@ -36,7 +36,7 @@ export const eventDatabase = [
     "The Art of Sampling",
     "Hands-on design workshop exploring how to develop strong visual taste and make more intentional design decisions.",
     new Date("2026-02-26"),
-    new Date("2024-02-26T017:30:00Z"),
+    new Date("2024-02-26T17:30:00Z"),
     "",
     "",
     "University Hall room 08"
