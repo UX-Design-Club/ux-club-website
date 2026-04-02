@@ -46,7 +46,7 @@ export const eventDatabase = [
     "Picnic in the Park",
     "Come join us for a potluck at UTA! All majors welcome - Bringing food is required! It's a potluck people.",
     new Date("2026-04-09"),
-    new Date("2024-04-09T17:00:00Z"),
+    new Date("2026-04-09T17:00:00Z"),
     "",
     "",
     "Architecture Courtyard - in between the ARCH and FA Buidling."
