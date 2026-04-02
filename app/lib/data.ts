@@ -33,23 +33,23 @@ export class Event {
 export const eventDatabase = [
   new Event(
     "first-general-meeting",
-    "The Art of Sampling",
-    "Hands-on design workshop exploring how to develop strong visual taste and make more intentional design decisions.",
-    new Date("2026-02-26"),
-    new Date("2024-02-26T17:30:00Z"),
+    "Portfolio & Resume Review",
+    "Personal one-on-one review of resume and portfolio with Guest Speaker Maurice Cruz. ONLY 10 SPOTS AVAILABLE.",
+    new Date("2026-04-02"),
+    new Date("2024-04-02T18:00:00Z"),
     "",
     "",
-    "Nedderman Hall Room 105"
+    "Fine Arts Building Room 327A"
   ),
   new Event(
     "second-general-meeting",
-    "TBNR Agency Tour",
-    "Pre scheduled Agency Tour with TBNR Productions. Applications Closed.",
-    new Date("2026-03-02"),
-    new Date("2024-03-02T09:30:00Z"),
+    "Picnic in the Park",
+    "Come join us for a potluck at UTA! All majors welcome - Bringing food is required! It's a potluck people.",
+    new Date("2026-04-09"),
+    new Date("2024-04-09T17:00:00Z"),
     "",
     "",
-    "TBNR Productions"
+    "Architecture Courtyard - in between the ARCH and FA Buidling."
   ),
   new Event(
     "ux-design-challenge",
