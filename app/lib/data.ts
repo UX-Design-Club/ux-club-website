@@ -33,19 +33,19 @@ export class Event {
 export const eventDatabase = [
   new Event(
     "first-general-meeting",
-    "Portfolio & Resume Review",
-    "Personal one-on-one review of resume and portfolio with Guest Speaker Maurice Cruz. ONLY 10 SPOTS AVAILABLE.",
-    new Date("2026-04-02"),
-    new Date("2024-04-02T18:00:00Z"),
+    "CTEC x UXDC",
+    "Come join us for our CTEC Alumni X UXDC Mixer! Come meet some Alumni as they speak about their experience! ",
+    new Date("2026-04-16"),
+    new Date("2024-04-02T18:30:00Z"),
     "",
     "",
     "Fine Arts Building Room 327A"
   ),
   new Event(
     "second-general-meeting",
-    "Picnic in the Park",
-    "Come join us for a potluck at UTA! All majors welcome - Bringing food is required! It's a potluck people.",
-    new Date("2026-04-09"),
+    "Yoga in the Park",
+    "Come join us for a a chill yoga social! Meet some of our officers and have fun!",
+    new Date("2026-04-21"),
     new Date("2026-04-09T17:00:00Z"),
     "",
     "",
