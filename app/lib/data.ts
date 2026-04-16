@@ -49,7 +49,7 @@ export const eventDatabase = [
     new Date("2026-04-09T17:00:00Z"),
     "",
     "",
-    "Architecture Courtyard - in between the ARCH and FA Buidling."
+    "Architecture Courtyard"
   ),
   new Event(
     "ux-design-challenge",
