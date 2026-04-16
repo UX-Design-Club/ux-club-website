@@ -39,7 +39,7 @@ export const eventDatabase = [
     new Date("2024-04-02T17:30:00Z"),
     "",
     "",
-    "Fine Arts Building Room 327A"
+    "FA Building Room 327A"
   ),
   new Event(
     "second-general-meeting",
