@@ -36,7 +36,7 @@ export const eventDatabase = [
     "CTEC x UXDC",
     "Come join us for our CTEC Alumni X UXDC Mixer! Come meet some Alumni as they speak about their experience! ",
     new Date("2026-04-16"),
-    new Date("2024-04-02T18:30:00Z"),
+    new Date("2024-04-02T17:30:00Z"),
     "",
     "",
     "Fine Arts Building Room 327A"
