@@ -91,7 +91,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center md:justify-start">
                 <GoButton
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScL8UpFtCC1le7_2U92xTJzdilZXaWNyBKfEaNRsTTviibnYQ/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeVLXFASnPX41jVYLjuXoEfJVCptQrJevtlCP_aiiI_9IrRcw/viewform"
                   text="Join Us"
                   dark
                 />
