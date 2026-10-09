@@ -14,7 +14,7 @@ export default function MembersPage() {
           <div className="mt-8">
             <ul className="space-y-4">
             <li>
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLScL8UpFtCC1le7_2U92xTJzdilZXaWNyBKfEaNRsTTviibnYQ/viewform" className="block bg-white text-black p-4 rounded-lg shadow-md hover:bg-gray-100 transition-colors">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeVLXFASnPX41jVYLjuXoEfJVCptQrJevtlCP_aiiI_9IrRcw/viewform" className="block bg-white text-black p-4 rounded-lg shadow-md hover:bg-gray-100 transition-colors">
                   <div className="text-lg font-semibold mb-2">Membership Form</div>
                   <p className="text-sm text-gray-600">
                     Sign up to be a member!
@@ -22,7 +22,7 @@ export default function MembersPage() {
                 </Link>
               </li>
               <li>
-                <Link href="https://docs.google.com/spreadsheets/d/1UN4MKIyAnaERUSHJMVArQ86NF2O_ICrqexC00VNZB78/edit?usp=sharing" className="block bg-white text-black p-4 rounded-lg shadow-md hover:bg-gray-100 transition-colors">
+                <Link href="https://docs.google.com/spreadsheets/d/1p0YIp_SGJk0ZpK6ugntQEFVEGObwQ7JXwuGeFRCu5GM/edit?gid=999939365#gid=999939365" className="block bg-white text-black p-4 rounded-lg shadow-md hover:bg-gray-100 transition-colors">
                   <div className="text-lg font-semibold mb-2">Points</div>
                   <p className="text-sm text-gray-600">
                     Track your points here!
