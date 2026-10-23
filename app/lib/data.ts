@@ -33,23 +33,25 @@ export class Event {
 export const eventDatabase = [
   new Event(
     "first-general-meeting",
-    "CTEC x UXDC",
-    "Come join us for our CTEC Alumni X UXDC Mixer! Come meet some Alumni as they speak about their experience! ",
-    new Date("2026-04-16"),
-    new Date("2024-04-02T17:30:00Z"),
+    "Second GBM with Guest Speaker Brian Sullivan: Visiting Assistant Professor of Design at UNT",
+    "Getting Personal with Brand: Resume and Portfolio Workshop",
+    "Ready to cut through the digital noise and build a professional brand that actually gets noticed? This crash course workshop, Branding, Resumes, and Portfolios, is designed to help you transform your academic and creative projects into a powerful professional identity. In the current design market, pushing pixels isn't enough anymore—you need to stand out as a strategic thinker. Led by Brian Sullivan, this fast-paced session will teach you how to grab a recruiter's attention in the crucial first few seconds and intentionally design a career path you love.",
+    new Date("2026-10-28"),
+    new Date("2026-10-28T17:30:00Z"),
     "",
     "",
-    "FA Building Room 327A"
+    "Social Work & Smart Hospital (SWSH) Room 423"
   ),
   new Event(
-    "second-general-meeting",
-    "Yoga in the Park",
-    "Come join us for a a chill yoga social! Meet some of our officers and have fun!",
-    new Date("2026-04-21"),
-    new Date("2026-04-09T17:00:00Z"),
+    "third-general-meeting",
+    "Third GBM with Guest Speaker John Keese: VP of User Experience at Ryan",
+    " 5 D's of AI? Design, Develop, Delegate, Discern & Dodge",
+    "AI is powerful, but also hype. Through the lenses of an individual contributor, design manager, and design executive, John will explore what UXers should delegate to AI and which human skills remain essential. Part workshop and part Q&A, bring your favorite model and hottest Design Twitter opinions for a candid look at what AI should—and shouldn’t—take off your plate.",
+    new Date("2026-11-11"),
+    new Date("2026-11-11T17:30:00Z"),
     "",
     "",
-    "Architecture Courtyard"
+    "Social Work & Smart Hospital (SWSH) Room 423"
   ),
   new Event(
     "ux-design-challenge",
