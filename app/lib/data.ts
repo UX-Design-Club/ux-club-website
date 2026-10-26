@@ -34,12 +34,9 @@ export const eventDatabase = [
   new Event(
     "first-general-meeting",
     "Second GBM with Guest Speaker Brian Sullivan: Visiting Assistant Professor of Design at UNT",
-<<<<<<< HEAD
+HEAD
     "Getting Personal with Brand: Resume and Portfolio Workshop; Ready to cut through the digital noise and build a professional brand that actually gets noticed? This crash course workshop, Branding, Resumes, and Portfolios, is designed to help you transform your academic and creative projects into a powerful professional identity. In the current design market, pushing pixels isn't enough anymore—you need to stand out as a strategic thinker. Led by Brian Sullivan, this fast-paced session will teach you how to grab a recruiter's attention in the crucial first few seconds and intentionally design a career path you love.",
-=======
-    "Getting Personal with Brand: Resume and Portfolio Workshop",
-    "Ready to cut through the digital noise and build a professional brand that actually gets noticed? This crash course workshop, Branding, Resumes, and Portfolios, is designed to help you transform your academic and creative projects into a powerful professional identity. In the current design market, pushing pixels isn't enough anymore—you need to stand out as a strategic thinker. Led by Brian Sullivan, this fast-paced session will teach you how to grab a recruiter's attention in the crucial first few seconds and intentionally design a career path you love.",
->>>>>>> 31b9dc08d511869872d85fdcb2b7385b107b7d7b
+
     new Date("2026-10-28"),
     new Date("2026-10-28T17:30:00Z"),
     "",
@@ -47,16 +44,10 @@ export const eventDatabase = [
     "Social Work & Smart Hospital (SWSH) Room 423"
   ),
   new Event(
-<<<<<<< HEAD
+ HEAD
     "second-general-meeting",
     "Third GBM with Guest Speaker John Keese: VP of User Experience at Ryan",
     "5 D's of AI? Design, Develop, Delegate, Discern & Dodge; AI is powerful, but also hype. Through the lenses of an individual contributor, design manager, and design executive, John will explore what UXers should delegate to AI and which human skills remain essential. Part workshop and part Q&A, bring your favorite model and hottest Design Twitter opinions for a candid look at what AI should—and shouldn’t—take off your plate.",
-=======
-    "third-general-meeting",
-    "Third GBM with Guest Speaker John Keese: VP of User Experience at Ryan",
-    " 5 D's of AI? Design, Develop, Delegate, Discern & Dodge",
-    "AI is powerful, but also hype. Through the lenses of an individual contributor, design manager, and design executive, John will explore what UXers should delegate to AI and which human skills remain essential. Part workshop and part Q&A, bring your favorite model and hottest Design Twitter opinions for a candid look at what AI should—and shouldn’t—take off your plate.",
->>>>>>> 31b9dc08d511869872d85fdcb2b7385b107b7d7b
     new Date("2026-11-11"),
     new Date("2026-11-11T17:30:00Z"),
     "",
