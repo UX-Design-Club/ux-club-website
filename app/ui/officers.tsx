@@ -46,7 +46,7 @@ export function OfficerHighlight() {
             />
             <OfficerCard
               name="Victoria Wegsheider"
-              role="Public Relation"
+              role="Public Relations"
               bio=""
               pictureURL="/images/officers-photos/Victoria-Wegsheider.jpg"
               linkedin=""
@@ -54,7 +54,7 @@ export function OfficerHighlight() {
             />
             <OfficerCard
                 name="Calena Barnes"
-                role="Public Relation"
+                role="Public Relations"
                 bio=""
                 pictureURL="/images/officers-photos/Calena.jpg"
                 linkedin=""
@@ -62,7 +62,7 @@ export function OfficerHighlight() {
               />
             <OfficerCard
               name="Kathy Le"
-              role="Public Relation"
+              role="Public Relations"
               bio=""
               pictureURL="/images/officers-photos/Kathy-Le.jpg"
               linkedin=""
