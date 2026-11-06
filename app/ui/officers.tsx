@@ -20,7 +20,7 @@ export function OfficerHighlight() {
               name="Heeva Movaghar"
               role="Vice President"
               bio=""
-              pictureURL="/images/officers-photos/Heeva-Movaghar.png"
+              pictureURL="/images/officers-photos/Heeva-Movaghar.jpg"
               linkedin=""
               email="uxdesignclub.uta@gmail.com"
             />
