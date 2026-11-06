@@ -9,56 +9,72 @@ export function OfficerHighlight() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center flex-wrap items-center">
         <OfficerCard
-              name="Ivy Nguyen"
+              name="Nairobi Canchola"
               role="President"
               bio=""
-              pictureURL="/images/officers-photos/ivy.jpg"
-              linkedin="https://www.linkedin.com/in/ivy-nguyen-aa5758253/"
+              pictureURL="/images/officers-photos/Nairobi-Canchola.jpg"
+              linkedin=""
               email="uxdesignclub.uta@gmail.com"
             />
             <OfficerCard
-              name="Christina Castillo"
+              name="Heeva Movaghar"
               role="Vice President"
               bio=""
-              pictureURL="/images/officers-photos/christina.png"
-              linkedin="https://www.linkedin.com/in/christina-castillo-88b42a291"
+              pictureURL="/images/officers-photos/Heeva-Movaghar.png"
+              linkedin=""
               email="uxdesignclub.uta@gmail.com"
             />
             <OfficerCard
-              name="Keller Bowman"
+              name="Moiz Khan"
               role="Treasurer"
               bio=""
-              pictureURL="/images/officers-photos/keller.jpg"
-              linkedin="https://www.linkedin.com/in/grayson-bowman/"
-              github="https://github.com/DistantLandsProductions"
-              twitter="https://x.com/DistantLands_"
+              pictureURL="/images/officers-photos/Moiz-Khan.jpg"
+              linkedin=""
+              github=""
+              twitter=""
               email="uxdesignclub.uta@gmail.com"
               
             />
             <OfficerCard
-              name="Alexandra Gonzales"
+              name="Nadia Nester"
               role="Secretary"
               bio=""
-              pictureURL="/images/officers-photos/alex.jpg"
+              pictureURL="/images/officers-photos/Nadia-Nester.jpg"
               email="uxdesignclub.uta@gmail.com"
-              linkedin="https://www.linkedin.com/in/alexandra-gonzales-743932301/"
-              github="https://github.com/alexgonzale35"
+              linkedin=""
+              github=""
             />
             <OfficerCard
-              name="Nathan Mazariego"
+              name="Victoria Wegsheider"
               role="Public Relation"
               bio=""
-              pictureURL="/images/officers-photos/nathan.jpg"
-              linkedin="https://www.linkedin.com/in/nathan-mazariego-5aab0527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+              pictureURL="/images/officers-photos/Victoria-Wegsheider.jpg"
+              linkedin=""
               email="uxdesignclub.uta@gmail.com"
             />
             <OfficerCard
-              name="Anh Ta"
-              role="Webmaster"
+                name="Calena Barnes"
+                role="Public Relation"
+                bio=""
+                pictureURL="/images/officers-photos/Calena.jpg"
+                linkedin=""
+                email="uxdesignclub.uta@gmail.com"
+              />
+            <OfficerCard
+              name="Kathy Le"
+              role="Public Relation"
               bio=""
-              pictureURL="/images/officers-photos/anh.jpg"
-              linkedin="https://www.linkedin.com/in/anh-taa/"
-              github="https://github.com/anhhtaa"
+              pictureURL="/images/officers-photos/Kathy-Le.jpg"
+              linkedin=""
+              email="uxdesignclub.uta@gmail.com"
+            />
+            <OfficerCard
+              name="Alex Perez"
+              role="Corporate relations"
+              bio=""
+              pictureURL="/images/officers-photos/Alex-Perez.jpg"
+              linkedin=""
+              github=""
               email="uxdesignclub.uta@gmail.com"
             />
         </div>
